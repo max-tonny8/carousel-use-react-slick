@@ -13,7 +13,7 @@ export const Slider = ({ people }: SliderProps) => {
 
   return (
     <div className="w-full max-w-full">
-      <SlickSlider className="overflow-hidden" {...slickSettings}>
+      <SlickSlider className="flex overflow-hidden" {...slickSettings}>
         {people.map(person => (
           <SliderItem key={person.id} person={person} />
         ))}
