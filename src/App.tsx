@@ -9,7 +9,7 @@ import data from './api/data.json';
 
 export const App = () => {
   const people: Person[] = data;
-  console.log(people);
+
   return (
     <div className="bg-gray-50">
       <div className="flex flex-col items-center justify-center min-h-screen">
